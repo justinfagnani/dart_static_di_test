@@ -1,0 +1,8 @@
+name: static_test
+description: A sample web application
+dependencies:
+  browser: any
+transformers:
+- $dart2js:
+    checked: false
+    minify: true
